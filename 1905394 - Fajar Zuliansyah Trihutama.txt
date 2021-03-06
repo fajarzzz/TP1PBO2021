@@ -1,0 +1,16 @@
+A. Janji/Sumpah:
+Saya Fajar Zuliansyah Trihutama bersumpah/berjanji mengerjakan TP1 
+dalam mata kuliah Desain dan Pemrograman Berorientasi Objek
+untuk keberkahanNya maka saya tidak melakukan kecurangan 
+seperti yang telah di spesifikasikan.
+
+B. Kesulitan:
+- Mempelajari bagaimana control pada windows form bekerja.
+- Interaksi antara kelas dan control untuk passing data
+- Mengakali agar event handler dapat menerima parameter untuk fitur lihat detail barang
+
+C. Hal Baru Yang Dipelajari:
+- Mempelajari FlowLayoutPanel dan bagaimana perilakunya
+- Mempelajari membuat berbagai control (Panel, Button, Label, dsb.) pada saat runtime dengan kode 
+- Mempelajari penggunaan user control untuk pindah panel secara dinamis
+- Menambahkan dan set pictureBox pada saat runtime
