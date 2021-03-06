@@ -13,7 +13,6 @@ namespace TP1PBO2021
     public partial class HomePanel : UserControl
     {
         Barang[] brg;
-
         FlowLayoutPanel[] komponen;
         private bool status = false;
         private bool check = true;
@@ -104,9 +103,20 @@ namespace TP1PBO2021
                         komponen[i].Name = "komponen" + i;
                         komponen[i].AutoSize = true;
                         komponen[i].FlowDirection = FlowDirection.TopDown;
-                        komponen[i].Margin = new Padding(15);
+                        komponen[i].Margin = new Padding(32);
                         komponen[i].Padding = new Padding(10);
+                        komponen[i].BorderStyle = BorderStyle.Fixed3D;
 
+                        // foto barang
+                        PictureBox picture = new PictureBox
+                        {
+                            Name = "pictureBox" + i,
+                            Size = new Size(100, 100),
+                            Image = item.getGambar(),
+                            SizeMode = PictureBoxSizeMode.Zoom,
+                            Visible = true
+                        };
+                        komponen[i].Controls.Add(picture);
 
                         // nama barang
                         Label namaBarang = new Label();

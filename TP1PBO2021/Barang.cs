@@ -14,13 +14,13 @@ namespace TP1PBO2021
         public string nama { get; set; }
         public int harga { get; set; }
         public string jenis { get; set; }
-        public string gambar { get; set; }
 
+        Bitmap gambar { get; set; }
         HomePanel temp;
 
         public Barang() { }
 
-        public Barang(string nama, int harga, string jenis, string gambar) {
+        public Barang(string nama, int harga, string jenis, Bitmap gambar) {
             this.nama = nama;
             this.harga = harga;
             this.jenis = jenis;
@@ -43,13 +43,18 @@ namespace TP1PBO2021
             DetailPanel detail = new DetailPanel(this);
             detail.Dock = DockStyle.Fill;
            // this.temp = detail
-            this.temp.Controls.Add(detail); ;
+            this.temp.Controls.Add(detail);
             detail.BringToFront();
         }
 
         public void setTemp(HomePanel panel)
         {
             this.temp = panel;
+        }
+
+        public Bitmap getGambar()
+        {
+            return this.gambar;
         }
     }
 }

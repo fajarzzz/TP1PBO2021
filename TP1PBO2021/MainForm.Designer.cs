@@ -30,16 +30,16 @@ namespace TP1PBO2021
         private void InitializeComponent()
         {
             this.navbar = new System.Windows.Forms.Panel();
-            this.LogoutIcon = new System.Windows.Forms.PictureBox();
-            this.catalogIcon = new System.Windows.Forms.PictureBox();
-            this.homeIcon = new System.Windows.Forms.PictureBox();
             this.lbNama = new System.Windows.Forms.Label();
             this.lbNIM = new System.Windows.Forms.Label();
             this.Logout = new System.Windows.Forms.Label();
             this.webCatalog = new System.Windows.Forms.Label();
             this.lbHome = new System.Windows.Forms.Label();
-            this.Logo = new System.Windows.Forms.PictureBox();
             this.panelFill = new System.Windows.Forms.Panel();
+            this.LogoutIcon = new System.Windows.Forms.PictureBox();
+            this.catalogIcon = new System.Windows.Forms.PictureBox();
+            this.homeIcon = new System.Windows.Forms.PictureBox();
+            this.Logo = new System.Windows.Forms.PictureBox();
             this.navbar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.LogoutIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.catalogIcon)).BeginInit();
@@ -64,41 +64,6 @@ namespace TP1PBO2021
             this.navbar.Name = "navbar";
             this.navbar.Size = new System.Drawing.Size(798, 100);
             this.navbar.TabIndex = 0;
-            // 
-            // LogoutIcon
-            // 
-            this.LogoutIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.LogoutIcon.Image = global::TP1PBO2021.Properties.Resources.logout;
-            this.LogoutIcon.Location = new System.Drawing.Point(414, 47);
-            this.LogoutIcon.Name = "LogoutIcon";
-            this.LogoutIcon.Size = new System.Drawing.Size(23, 20);
-            this.LogoutIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.LogoutIcon.TabIndex = 13;
-            this.LogoutIcon.TabStop = false;
-            this.LogoutIcon.Click += new System.EventHandler(this.LogoutIcon_Click);
-            // 
-            // catalogIcon
-            // 
-            this.catalogIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.catalogIcon.Image = global::TP1PBO2021.Properties.Resources.catalog;
-            this.catalogIcon.Location = new System.Drawing.Point(256, 46);
-            this.catalogIcon.Name = "catalogIcon";
-            this.catalogIcon.Size = new System.Drawing.Size(23, 20);
-            this.catalogIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.catalogIcon.TabIndex = 12;
-            this.catalogIcon.TabStop = false;
-            this.catalogIcon.Click += new System.EventHandler(this.catalogIcon_Click);
-            // 
-            // homeIcon
-            // 
-            this.homeIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.homeIcon.Image = global::TP1PBO2021.Properties.Resources.home;
-            this.homeIcon.Location = new System.Drawing.Point(125, 44);
-            this.homeIcon.Name = "homeIcon";
-            this.homeIcon.Size = new System.Drawing.Size(33, 25);
-            this.homeIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.homeIcon.TabIndex = 11;
-            this.homeIcon.TabStop = false;
             // 
             // lbNama
             // 
@@ -158,6 +123,49 @@ namespace TP1PBO2021
             this.lbHome.TabIndex = 6;
             this.lbHome.Text = "Home";
             // 
+            // panelFill
+            // 
+            this.panelFill.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelFill.Location = new System.Drawing.Point(0, 100);
+            this.panelFill.Name = "panelFill";
+            this.panelFill.Size = new System.Drawing.Size(798, 341);
+            this.panelFill.TabIndex = 1;
+            // 
+            // LogoutIcon
+            // 
+            this.LogoutIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.LogoutIcon.Image = global::TP1PBO2021.Properties.Resources.logout;
+            this.LogoutIcon.Location = new System.Drawing.Point(414, 47);
+            this.LogoutIcon.Name = "LogoutIcon";
+            this.LogoutIcon.Size = new System.Drawing.Size(23, 20);
+            this.LogoutIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.LogoutIcon.TabIndex = 13;
+            this.LogoutIcon.TabStop = false;
+            this.LogoutIcon.Click += new System.EventHandler(this.LogoutIcon_Click);
+            // 
+            // catalogIcon
+            // 
+            this.catalogIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.catalogIcon.Image = global::TP1PBO2021.Properties.Resources.catalog;
+            this.catalogIcon.Location = new System.Drawing.Point(256, 46);
+            this.catalogIcon.Name = "catalogIcon";
+            this.catalogIcon.Size = new System.Drawing.Size(23, 20);
+            this.catalogIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.catalogIcon.TabIndex = 12;
+            this.catalogIcon.TabStop = false;
+            this.catalogIcon.Click += new System.EventHandler(this.catalogIcon_Click);
+            // 
+            // homeIcon
+            // 
+            this.homeIcon.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.homeIcon.Image = global::TP1PBO2021.Properties.Resources.home;
+            this.homeIcon.Location = new System.Drawing.Point(125, 44);
+            this.homeIcon.Name = "homeIcon";
+            this.homeIcon.Size = new System.Drawing.Size(33, 25);
+            this.homeIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.homeIcon.TabIndex = 11;
+            this.homeIcon.TabStop = false;
+            // 
             // Logo
             // 
             this.Logo.Image = global::TP1PBO2021.Properties.Resources.logo;
@@ -167,14 +175,6 @@ namespace TP1PBO2021
             this.Logo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.Logo.TabIndex = 1;
             this.Logo.TabStop = false;
-            // 
-            // panelFill
-            // 
-            this.panelFill.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelFill.Location = new System.Drawing.Point(0, 100);
-            this.panelFill.Name = "panelFill";
-            this.panelFill.Size = new System.Drawing.Size(798, 341);
-            this.panelFill.TabIndex = 1;
             // 
             // MainForm
             // 

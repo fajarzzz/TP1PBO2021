@@ -79,11 +79,12 @@ namespace TP1PBO2021
             // 
             // containerItems
             // 
+            this.containerItems.AutoScroll = true;
             this.containerItems.ImeMode = System.Windows.Forms.ImeMode.Disable;
             this.containerItems.Location = new System.Drawing.Point(164, 51);
             this.containerItems.Margin = new System.Windows.Forms.Padding(25);
             this.containerItems.Name = "containerItems";
-            this.containerItems.Size = new System.Drawing.Size(606, 264);
+            this.containerItems.Size = new System.Drawing.Size(606, 222);
             this.containerItems.TabIndex = 4;
             // 
             // HomePanel

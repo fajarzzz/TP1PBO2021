@@ -21,6 +21,18 @@ namespace TP1PBO2021
 
         private void DetailPanel_Load(object sender, EventArgs e)
         {
+            // foto barang
+            PictureBox picture = new PictureBox
+            {
+                Name = "pictureBox",
+                Size = new Size(100, 100),
+                Image = this.brg.getGambar(),
+                SizeMode = PictureBoxSizeMode.Zoom,
+                Location = new Point(388, 87),
+                Visible = true
+            };
+            this.Controls.Add(picture);
+
             // nama barang
             Label namaBarang = new Label();
             namaBarang.Text = this.brg.nama;

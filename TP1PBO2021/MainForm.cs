@@ -26,12 +26,12 @@ namespace TP1PBO2021
             lbNIM.Text = Convert.ToString(this.pengguna.nim);
             lbNama.Text = Convert.ToString(this.pengguna.nama);
 
-            this.arrBarang[0] = new Barang("Speaker", 250000, "Elektronik", "");
-            this.arrBarang[1] = new Barang("T-shirt Deus", 100000, "Baju", "");
-            this.arrBarang[2] = new Barang("Nasi Goreng", 300000, "Makanan", "");
-            this.arrBarang[3] = new Barang("Kemeja Ganteng", 150000, "Baju", "");
-            this.arrBarang[4] = new Barang("Keyboard", 450000, "Elektronik","");
-            this.arrBarang[5] = new Barang("Airpods Pro", 900000, "Elektronik","");
+            this.arrBarang[0] = new Barang("Speaker", 250000, "Elektronik", Properties.Resources.speaker);
+            this.arrBarang[1] = new Barang("T-shirt Deus", 100000, "Baju", Properties.Resources.tshirt);
+            this.arrBarang[2] = new Barang("Nasi Goreng", 300000, "Makanan", Properties.Resources.nasgor);
+            this.arrBarang[3] = new Barang("Kemeja Ganteng", 150000, "Baju", Properties.Resources.kemeja);
+            this.arrBarang[4] = new Barang("Keyboard", 450000, "Elektronik", Properties.Resources.keyboard);
+            this.arrBarang[5] = new Barang("Airpods Pro", 900000, "Elektronik", Properties.Resources.airpods);
 
             HomePanel hp = new HomePanel(this.arrBarang);
             hp.Dock = DockStyle.Fill;
