@@ -4,6 +4,12 @@ Nama : Fajar Zuliansyah Trihutama
 
 NIM  : 1905394 
 
+Login:
+```
+Username bebas.
+Password : pbo123
+```
+
 ### Spesifikasi Terpenuhi Semua
 ```
 1. Login ✔
